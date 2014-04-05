@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <!--普通豌豆植物-->
+    <Plant name="PLANT">
+        <HP>200</HP>
+        <AT>0</AT>
+        <!--创建子弹或者太阳 的时间-->
+        <CREATE_BULLET_TIME>0.3</CREATE_BULLET_TIME>
+        <!--当前植物的图片名字-->
+        <SPRITE_IMG_NAME>Peashooter</SPRITE_IMG_NAME>
+        <!--从当前植物创建出来的精灵（比如子弹，或者太阳 的图片名字）-->
+        <PRODUCTION_NAME>PB01.png</PRODUCTION_NAME>
+        <!--为了重新设置植物的中心点-->
+        <BOUNDING_BOX_X>0</BOUNDING_BOX_X>
+        <!--植物卡片名字-->
+        <Plant_Card>plantCard.gif</Plant_Card>
+        <!--植物卡片不能选的名字-->
+        <Plant_Cardh>plantCardh.png</Plant_Cardh>
+    </Plant>
+    <!--向日葵-->
+    <Sun_Flower name="SUN_FLOWER">
+        <HP>250</HP>
+        <AT>0</AT>
+        <!--创建子弹或者太阳 的时间-->
+        <CREATE_BULLET_TIME>17</CREATE_BULLET_TIME>
+        <!--当前植物的图片名字-->
+        <SPRITE_IMG_NAME>sunflower</SPRITE_IMG_NAME>
+        <!--从当前植物创建出来的精灵（比如子弹，或者太阳 的图片名字）-->
+        <PRODUCTION_NAME>sun1.png</PRODUCTION_NAME>
+        <!--为了重新设置植物的中心点-->
+        <BOUNDING_BOX_X>0</BOUNDING_BOX_X>
+        <!--植物卡片名字-->
+        <Plant_Card>sunflower.png</Plant_Card>
+        <!--植物卡片不能选的名字-->
+        <Plant_Cardh>sunflowerh.png</Plant_Cardh>
+    </Sun_Flower>
+    <!--爆炸樱桃-->
+    <CherryBoump name="CHERRYBOUMP">
+        <HP>100000</HP>
+        <AT>0</AT>
+        <!--创建子弹或者太阳 的时间-->
+        <CREATE_BULLET_TIME>10</CREATE_BULLET_TIME>
+        <!--当前植物的图片名字-->
+        <SPRITE_IMG_NAME>cherryBoump</SPRITE_IMG_NAME>
+        <!--从当前植物创建出来的精灵（比如子弹，或者太阳 的图片名字）-->
+        <PRODUCTION_NAME>Boom.png</PRODUCTION_NAME>
+        <!--为了重新设置植物的中心点-->
+        <BOUNDING_BOX_X>50</BOUNDING_BOX_X>
+        <!--植物卡片名字-->
+        <Plant_Card>cherry.png</Plant_Card>
+        <!--植物卡片不能选的名字-->
+        <Plant_Cardh>cherryh.png</Plant_Cardh>
+    </CherryBoump>
+</document>

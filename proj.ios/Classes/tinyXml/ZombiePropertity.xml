@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <Zombie name="Zombie">
+        <HP>1000</HP>
+        <AT>5</AT>
+        <AT_PLANT_TIME>0.1</AT_PLANT_TIME>
+        <CT_ZOM_TIME>15</CT_ZOM_TIME>
+        <Animations>
+            <!-- 正常僵尸走路的姿势-->
+            <Walk>Zombie</Walk>
+            <WalkNUM>22</WalkNUM>
+            <!-- 掉头僵尸走路的图片名字-->
+            <LostHeadWalk>ZombieLostHead</LostHeadWalk>
+            <LostHeadWalkNUM>18</LostHeadWalkNUM>
+            <!-- 僵尸掉头的图片名字-->
+            <Head>ZombieHead</Head>
+            <HeadNUM>12</HeadNUM>
+            <!-- 正常僵尸攻击植物的图片名字-->
+            <Attack>ZombieAttack</Attack>
+            <AttackNUM>21</AttackNUM>
+            <!-- 掉头僵尸攻击植物的图片名字-->
+            <LostHeadAttack>ZombieLostHeadAttack</LostHeadAttack>
+            <LostHeadAttackNUM>12</LostHeadAttackNUM>
+            <!--僵尸被炸死的图片-->
+            <BombDie>BombDie1</BombDie>
+            <BombDieNUM>19</BombDieNUM>
+            <!--僵尸死亡的图片-->
+            <Die>ZombieDie</Die>
+            <DieNUM>10</DieNUM>
+        </Animations>
+    </Zombie>
+    <Zombie name="PoleVaultingZombie">
+        <HP>1000</HP>
+        <AT>5</AT>
+        <AT_PLANT_TIME>0.1</AT_PLANT_TIME>
+        <CT_ZOM_TIME>15</CT_ZOM_TIME>
+        <Animations>
+            <!-- 正常僵尸走路的姿势-->
+            <Walk>PoleVaultingZombie</Walk>
+            <WalkNUM>10</WalkNUM>
+            <!-- 掉头僵尸走路的图片名字-->
+            <LostHeadWalk>PoleVaultingZombieLostHeadWalk</LostHeadWalk>
+            <LostHeadWalkNUM>29</LostHeadWalkNUM>
+            <!-- 僵尸掉头的图片名字-->
+            <Head>PoleVaultingZombieHead</Head>
+            <HeadNUM>8</HeadNUM>
+            <!-- 正常僵尸攻击植物的图片名字-->
+            <Attack>PoleVaultingZombieAttack</Attack>
+            <AttackNUM>14</AttackNUM>
+            <!-- 掉头僵尸攻击植物的图片名字-->
+            <LostHeadAttack>PoleVaultingZombieLostHeadAttack</LostHeadAttack>
+            <LostHeadAttackNUM>14</LostHeadAttackNUM>
+            <!--僵尸被炸死的图片-->
+            <BombDie>BombDie1</BombDie>
+            <BombDieNUM>19</BombDieNUM>
+            <!--僵尸死亡的图片-->
+            <Die>PoleVaultingZombieDie</Die>
+            <DieNUM>9</DieNUM>
+        </Animations>
+    </Zombie>
+</document>
