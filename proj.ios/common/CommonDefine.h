@@ -40,4 +40,13 @@
 #define zombie_plist "zombie.plist"
 #define zombie_png  "zombie.png"
 
+
+
+
+#define SUN_SP_TAG 111
+
+
+
+
+
 #endif
