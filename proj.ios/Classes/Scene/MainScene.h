@@ -11,12 +11,12 @@
 
 #include <iostream>
 #include "cocos2d.h"
-//#include "<#header#>"
 using namespace cocos2d;
 
 class MainScene:public CCLayer{
 private:
     CCSprite * sp;
+    CCSprite * ball;
     CCSprite * LoginLineSp;
     CCMenu * menu;
 public:
@@ -25,7 +25,6 @@ public:
     virtual bool init();
     void startGame(CCObject * obj);
     void loginGame();
-    //创建类的宏
     CREATE_FUNC(MainScene);
 };
 

@@ -1384,15 +1384,7 @@
 				794BB07E18EFF450001A4E30 /* Classes */,
 				794BB09518EFF450001A4E30 /* Resources */,
 				794BB09418EFF450001A4E30 /* common */,
-				15A3D87E1682F7B3002FB0C5 /* cocos2dx.xcodeproj */,
-				15A3D8871682F7D5002FB0C5 /* Box2D */,
-				15A3D93A1682F7F9002FB0C5 /* chipmunk */,
-				15A3DA6B1682F8A6002FB0C5 /* CocosDenshion */,
-				15A3D9B31682F826002FB0C5 /* extensions */,
-				29B97323FDCFA39411CA2CEA /* Frameworks */,
-				080E96DDFE201D6D7F000001 /* ios */,
-				1AB87036175E0A92005D39BF /* libwebsockets */,
-				19C28FACFE9D520D11CA2CBB /* Products */,
+				791CC6C118F0FAF700CA5968 /* OtherBase */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -1722,6 +1714,22 @@
 				379BB99017F03F3700829B88 /* Reader */,
 			);
 			path = CocoStudio;
+			sourceTree = "<group>";
+		};
+		791CC6C118F0FAF700CA5968 /* OtherBase */ = {
+			isa = PBXGroup;
+			children = (
+				15A3D87E1682F7B3002FB0C5 /* cocos2dx.xcodeproj */,
+				15A3D8871682F7D5002FB0C5 /* Box2D */,
+				15A3D93A1682F7F9002FB0C5 /* chipmunk */,
+				15A3DA6B1682F8A6002FB0C5 /* CocosDenshion */,
+				15A3D9B31682F826002FB0C5 /* extensions */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				080E96DDFE201D6D7F000001 /* ios */,
+				1AB87036175E0A92005D39BF /* libwebsockets */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = OtherBase;
 			sourceTree = "<group>";
 		};
 		794BB07E18EFF450001A4E30 /* Classes */ = {
