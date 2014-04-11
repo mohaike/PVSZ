@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1B66E8CD-AAD7-4A09-93F2-0E2FF0761648</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PlantAndZombie_3</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C744277D-8321-459E-A6F4-767BBAAE951E</key>
+		<string>ssh://github.com/mohaike/PVSZ.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CoCos2DX/cocos2d-x-2.2.2/projects/PlantAndZombie_3/proj.ios/PlantAndZombie_3.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>794DB659-A082-444F-BD43-EB41DDD6FD1E</key>
+		<string>../../../../../../..</string>
+		<key>C744277D-8321-459E-A6F4-767BBAAE951E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/mohaike/PVSZ.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>794DB659-A082-444F-BD43-EB41DDD6FD1E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>794DB659-A082-444F-BD43-EB41DDD6FD1E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Magic Castle</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C744277D-8321-459E-A6F4-767BBAAE951E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PlantAndZombie_3</string>
+		</dict>
+	</array>
+</dict>
+</plist>
