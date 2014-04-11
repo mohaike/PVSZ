@@ -223,13 +223,10 @@
 		46513EB1187BFBA200B5ABE1 /* UITouchGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46513EAF187BFBA200B5ABE1 /* UITouchGroup.cpp */; };
 		794BB09A18EFF450001A4E30 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 794BB07F18EFF450001A4E30 /* AppDelegate.cpp */; };
 		794BB09B18EFF450001A4E30 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 794BB08618EFF450001A4E30 /* MainScene.cpp */; };
-		794BB09C18EFF450001A4E30 /* plantPropertity.xml in Resources */ = {isa = PBXBuildFile; fileRef = 794BB08918EFF450001A4E30 /* plantPropertity.xml */; };
 		794BB09D18EFF450001A4E30 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 794BB08A18EFF450001A4E30 /* tinystr.cpp */; };
 		794BB09E18EFF450001A4E30 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 794BB08C18EFF450001A4E30 /* tinyxml.cpp */; };
 		794BB09F18EFF450001A4E30 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 794BB08E18EFF450001A4E30 /* tinyxmlerror.cpp */; };
 		794BB0A018EFF450001A4E30 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 794BB08F18EFF450001A4E30 /* tinyxmlparser.cpp */; };
-		794BB0A118EFF450001A4E30 /* XmlManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 794BB09018EFF450001A4E30 /* XmlManager.cpp */; };
-		794BB0A218EFF450001A4E30 /* ZombiePropertity.xml in Resources */ = {isa = PBXBuildFile; fileRef = 794BB09218EFF450001A4E30 /* ZombiePropertity.xml */; };
 		794BB0A318EFF450001A4E30 /* arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 794BB09718EFF450001A4E30 /* arial.ttf */; };
 		794BB0A418EFF450001A4E30 /* Marker Felt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 794BB09818EFF450001A4E30 /* Marker Felt.ttf */; };
 		794BB0A518EFF450001A4E30 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 794BB09918EFF450001A4E30 /* HelloWorld.png */; };
@@ -238,14 +235,20 @@
 		794BB0B218EFFC6F001A4E30 /* loginMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 794BB0A918EFFC6F001A4E30 /* loginMap.png */; };
 		794BB0B318EFFC6F001A4E30 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 794BB0AA18EFFC6F001A4E30 /* map.png */; };
 		794BB0B418EFFC6F001A4E30 /* sodCollLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 794BB0AB18EFFC6F001A4E30 /* sodCollLogin.png */; };
-		794BB0B518EFFC6F001A4E30 /* zhiwu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 794BB0AC18EFFC6F001A4E30 /* zhiwu.plist */; };
-		794BB0B618EFFC6F001A4E30 /* zhiwu.png in Resources */ = {isa = PBXBuildFile; fileRef = 794BB0AD18EFFC6F001A4E30 /* zhiwu.png */; };
+		794BB0B518EFFC6F001A4E30 /* plant.plist in Resources */ = {isa = PBXBuildFile; fileRef = 794BB0AC18EFFC6F001A4E30 /* plant.plist */; };
+		794BB0B618EFFC6F001A4E30 /* plant.png in Resources */ = {isa = PBXBuildFile; fileRef = 794BB0AD18EFFC6F001A4E30 /* plant.png */; };
 		794BB0B718EFFC6F001A4E30 /* zombie.plist in Resources */ = {isa = PBXBuildFile; fileRef = 794BB0AE18EFFC6F001A4E30 /* zombie.plist */; };
 		794BB0B818EFFC6F001A4E30 /* zombie.png in Resources */ = {isa = PBXBuildFile; fileRef = 794BB0AF18EFFC6F001A4E30 /* zombie.png */; };
 		794BB0BB18EFFC81001A4E30 /* bullet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 794BB0B918EFFC81001A4E30 /* bullet.plist */; };
 		794BB0BC18EFFC81001A4E30 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 794BB0BA18EFFC81001A4E30 /* bullet.png */; };
 		794BB0BF18F004A4001A4E30 /* Animate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 794BB0BD18F004A4001A4E30 /* Animate.cpp */; };
 		794BB0C218F0054C001A4E30 /* BathNodeParent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 794BB0C018F0054C001A4E30 /* BathNodeParent.cpp */; };
+		79503CA518F67FAC00266FA0 /* PlantParentCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79503CA318F67FAC00266FA0 /* PlantParentCard.cpp */; };
+		79503CA818F69B9300266FA0 /* SunFlowerCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79503CA618F69B9200266FA0 /* SunFlowerCard.cpp */; };
+		79E7A20818F386EC0078FE95 /* plantPropertity.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79E7A20618F386EC0078FE95 /* plantPropertity.xml */; };
+		79E7A20918F386EC0078FE95 /* ZombiePropertity.xml in Resources */ = {isa = PBXBuildFile; fileRef = 79E7A20718F386EC0078FE95 /* ZombiePropertity.xml */; };
+		79E7A20C18F387170078FE95 /* XmlManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79E7A20A18F387170078FE95 /* XmlManager.cpp */; };
+		79E7A21218F39AF20078FE95 /* CardFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79E7A21018F39AF20078FE95 /* CardFrame.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -725,16 +728,12 @@
 		794BB08018EFF450001A4E30 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		794BB08618EFF450001A4E30 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
 		794BB08718EFF450001A4E30 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
-		794BB08918EFF450001A4E30 /* plantPropertity.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plantPropertity.xml; sourceTree = "<group>"; };
 		794BB08A18EFF450001A4E30 /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
 		794BB08B18EFF450001A4E30 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
 		794BB08C18EFF450001A4E30 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
 		794BB08D18EFF450001A4E30 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
 		794BB08E18EFF450001A4E30 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
 		794BB08F18EFF450001A4E30 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
-		794BB09018EFF450001A4E30 /* XmlManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XmlManager.cpp; sourceTree = "<group>"; };
-		794BB09118EFF450001A4E30 /* XmlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlManager.h; sourceTree = "<group>"; };
-		794BB09218EFF450001A4E30 /* ZombiePropertity.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ZombiePropertity.xml; sourceTree = "<group>"; };
 		794BB09718EFF450001A4E30 /* arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = arial.ttf; sourceTree = "<group>"; };
 		794BB09818EFF450001A4E30 /* Marker Felt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Marker Felt.ttf"; sourceTree = "<group>"; };
 		794BB09918EFF450001A4E30 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
@@ -744,8 +743,8 @@
 		794BB0A918EFFC6F001A4E30 /* loginMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginMap.png; sourceTree = "<group>"; };
 		794BB0AA18EFFC6F001A4E30 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 		794BB0AB18EFFC6F001A4E30 /* sodCollLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sodCollLogin.png; sourceTree = "<group>"; };
-		794BB0AC18EFFC6F001A4E30 /* zhiwu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zhiwu.plist; sourceTree = "<group>"; };
-		794BB0AD18EFFC6F001A4E30 /* zhiwu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhiwu.png; sourceTree = "<group>"; };
+		794BB0AC18EFFC6F001A4E30 /* plant.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = plant.plist; sourceTree = "<group>"; };
+		794BB0AD18EFFC6F001A4E30 /* plant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plant.png; sourceTree = "<group>"; };
 		794BB0AE18EFFC6F001A4E30 /* zombie.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zombie.plist; sourceTree = "<group>"; };
 		794BB0AF18EFFC6F001A4E30 /* zombie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie.png; sourceTree = "<group>"; };
 		794BB0B918EFFC81001A4E30 /* bullet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bullet.plist; sourceTree = "<group>"; };
@@ -754,6 +753,16 @@
 		794BB0BE18F004A4001A4E30 /* Animate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animate.h; sourceTree = "<group>"; };
 		794BB0C018F0054C001A4E30 /* BathNodeParent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BathNodeParent.cpp; sourceTree = "<group>"; };
 		794BB0C118F0054C001A4E30 /* BathNodeParent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BathNodeParent.h; sourceTree = "<group>"; };
+		79503CA318F67FAC00266FA0 /* PlantParentCard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlantParentCard.cpp; sourceTree = "<group>"; };
+		79503CA418F67FAC00266FA0 /* PlantParentCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantParentCard.h; sourceTree = "<group>"; };
+		79503CA618F69B9200266FA0 /* SunFlowerCard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SunFlowerCard.cpp; sourceTree = "<group>"; };
+		79503CA718F69B9300266FA0 /* SunFlowerCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunFlowerCard.h; sourceTree = "<group>"; };
+		79E7A20618F386EC0078FE95 /* plantPropertity.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = plantPropertity.xml; sourceTree = "<group>"; };
+		79E7A20718F386EC0078FE95 /* ZombiePropertity.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ZombiePropertity.xml; sourceTree = "<group>"; };
+		79E7A20A18F387170078FE95 /* XmlManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XmlManager.cpp; sourceTree = "<group>"; };
+		79E7A20B18F387170078FE95 /* XmlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlManager.h; sourceTree = "<group>"; };
+		79E7A21018F39AF20078FE95 /* CardFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardFrame.cpp; sourceTree = "<group>"; };
+		79E7A21118F39AF20078FE95 /* CardFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardFrame.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -1767,6 +1776,12 @@
 		794BB08318EFF450001A4E30 /* Card */ = {
 			isa = PBXGroup;
 			children = (
+				79E7A21018F39AF20078FE95 /* CardFrame.cpp */,
+				79E7A21118F39AF20078FE95 /* CardFrame.h */,
+				79503CA318F67FAC00266FA0 /* PlantParentCard.cpp */,
+				79503CA418F67FAC00266FA0 /* PlantParentCard.h */,
+				79503CA618F69B9200266FA0 /* SunFlowerCard.cpp */,
+				79503CA718F69B9300266FA0 /* SunFlowerCard.h */,
 			);
 			path = Card;
 			sourceTree = "<group>";
@@ -1798,10 +1813,10 @@
 				794BB08D18EFF450001A4E30 /* tinyxml.h */,
 				794BB08E18EFF450001A4E30 /* tinyxmlerror.cpp */,
 				794BB08F18EFF450001A4E30 /* tinyxmlparser.cpp */,
-				794BB09018EFF450001A4E30 /* XmlManager.cpp */,
-				794BB09118EFF450001A4E30 /* XmlManager.h */,
-				794BB08918EFF450001A4E30 /* plantPropertity.xml */,
-				794BB09218EFF450001A4E30 /* ZombiePropertity.xml */,
+				79E7A20A18F387170078FE95 /* XmlManager.cpp */,
+				79E7A20B18F387170078FE95 /* XmlManager.h */,
+				79E7A20618F386EC0078FE95 /* plantPropertity.xml */,
+				79E7A20718F386EC0078FE95 /* ZombiePropertity.xml */,
 			);
 			path = tinyXml;
 			sourceTree = "<group>";
@@ -1833,8 +1848,8 @@
 				794BB0A918EFFC6F001A4E30 /* loginMap.png */,
 				794BB0AA18EFFC6F001A4E30 /* map.png */,
 				794BB0AB18EFFC6F001A4E30 /* sodCollLogin.png */,
-				794BB0AC18EFFC6F001A4E30 /* zhiwu.plist */,
-				794BB0AD18EFFC6F001A4E30 /* zhiwu.png */,
+				794BB0AC18EFFC6F001A4E30 /* plant.plist */,
+				794BB0AD18EFFC6F001A4E30 /* plant.png */,
 				794BB0AE18EFFC6F001A4E30 /* zombie.plist */,
 				794BB0AF18EFFC6F001A4E30 /* zombie.png */,
 			);
@@ -1919,23 +1934,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				794BB0B518EFFC6F001A4E30 /* zhiwu.plist in Resources */,
+				794BB0B518EFFC6F001A4E30 /* plant.plist in Resources */,
 				794BB0BC18EFFC81001A4E30 /* bullet.png in Resources */,
 				794BB0B018EFFC6F001A4E30 /* icon@2x.png in Resources */,
+				79E7A20818F386EC0078FE95 /* plantPropertity.xml in Resources */,
 				794BB0B118EFFC6F001A4E30 /* loginLine.png in Resources */,
 				794BB0B818EFFC6F001A4E30 /* zombie.png in Resources */,
 				794BB0B418EFFC6F001A4E30 /* sodCollLogin.png in Resources */,
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
-				794BB09C18EFF450001A4E30 /* plantPropertity.xml in Resources */,
 				794BB0B318EFFC6F001A4E30 /* map.png in Resources */,
 				794BB0A318EFF450001A4E30 /* arial.ttf in Resources */,
 				794BB0A518EFF450001A4E30 /* HelloWorld.png in Resources */,
-				794BB0A218EFF450001A4E30 /* ZombiePropertity.xml in Resources */,
 				794BB0B718EFFC6F001A4E30 /* zombie.plist in Resources */,
 				794BB0A418EFF450001A4E30 /* Marker Felt.ttf in Resources */,
 				794BB0B218EFFC6F001A4E30 /* loginMap.png in Resources */,
 				794BB0BB18EFFC81001A4E30 /* bullet.plist in Resources */,
-				794BB0B618EFFC6F001A4E30 /* zhiwu.png in Resources */,
+				794BB0B618EFFC6F001A4E30 /* plant.png in Resources */,
+				79E7A20918F386EC0078FE95 /* ZombiePropertity.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1970,7 +1985,6 @@
 				15A3D9101682F7D5002FB0C5 /* b2Timer.cpp in Sources */,
 				15A3D9111682F7D5002FB0C5 /* b2Body.cpp in Sources */,
 				15A3D9121682F7D5002FB0C5 /* b2ContactManager.cpp in Sources */,
-				794BB0A118EFF450001A4E30 /* XmlManager.cpp in Sources */,
 				15A3D9131682F7D5002FB0C5 /* b2Fixture.cpp in Sources */,
 				15A3D9141682F7D5002FB0C5 /* b2Island.cpp in Sources */,
 				15A3D9151682F7D5002FB0C5 /* b2World.cpp in Sources */,
@@ -1990,6 +2004,8 @@
 				15A3D9211682F7D5002FB0C5 /* b2FrictionJoint.cpp in Sources */,
 				15A3D9221682F7D5002FB0C5 /* b2GearJoint.cpp in Sources */,
 				15A3D9231682F7D5002FB0C5 /* b2Joint.cpp in Sources */,
+				79503CA518F67FAC00266FA0 /* PlantParentCard.cpp in Sources */,
+				79E7A20C18F387170078FE95 /* XmlManager.cpp in Sources */,
 				15A3D9241682F7D5002FB0C5 /* b2MouseJoint.cpp in Sources */,
 				15A3D9251682F7D5002FB0C5 /* b2PrismaticJoint.cpp in Sources */,
 				15A3D9261682F7D5002FB0C5 /* b2PulleyJoint.cpp in Sources */,
@@ -2024,6 +2040,7 @@
 				15A3D9AD1682F7F9002FB0C5 /* cpSpaceHash.c in Sources */,
 				15A3D9AE1682F7F9002FB0C5 /* cpSpaceQuery.c in Sources */,
 				15A3D9AF1682F7F9002FB0C5 /* cpSpaceStep.c in Sources */,
+				79503CA818F69B9300266FA0 /* SunFlowerCard.cpp in Sources */,
 				15A3D9B01682F7F9002FB0C5 /* cpSpatialIndex.c in Sources */,
 				15A3D9B11682F7F9002FB0C5 /* cpSweep1D.c in Sources */,
 				15A3D9B21682F7F9002FB0C5 /* cpVect.c in Sources */,
@@ -2140,6 +2157,7 @@
 				379BB9B017F03F3700829B88 /* CCComRender.cpp in Sources */,
 				379BB9B117F03F3700829B88 /* CCInputDelegate.cpp in Sources */,
 				379BB9B317F03F3700829B88 /* UIWidget.cpp in Sources */,
+				79E7A21218F39AF20078FE95 /* CardFrame.cpp in Sources */,
 				379BB9B417F03F3700829B88 /* UILayout.cpp in Sources */,
 				379BB9B617F03F3700829B88 /* UILayoutParameter.cpp in Sources */,
 				379BB9B717F03F3700829B88 /* UILayoutDefine.cpp in Sources */,

@@ -10,7 +10,7 @@
 
 BathNodeParent * BathNodeParent::createWithFile(const char * fileImage){
     BathNodeParent * batchNode = new BathNodeParent();
-    batchNode->initWithFile(fileImage);
+    batchNode->initWithFile(fileImage);//根据精灵图片渲染,这个是CCSpriteBathNode的方法
     batchNode->autorelease();
     return batchNode;
 }
@@ -18,6 +18,9 @@ bool BathNodeParent::initWithFile(const char * fileImage){
     if (!CCSpriteBatchNode::initWithFile(fileImage, kDefaultSpriteBatchCapacity)) {
         return false;
     }
+    lock = true;
+    //介个又是什么意思???
+    CCDirector::sharedDirector()->getTouchDispatcher()->addTargetedDelegate(this, 0, true);
     return true;
 }
 bool BathNodeParent::ccTouchBegan(CCTouch * pTouch, CCEvent * pEvent){

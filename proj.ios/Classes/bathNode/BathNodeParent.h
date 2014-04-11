@@ -18,10 +18,11 @@ using namespace cocos2d;
 
 class BathNodeParent:public CCSpriteBatchNode, public CCTouchDelegate{
 private:
-    bool lock;
+    bool lock;//这个是用来做什么的??
 public:
     static BathNodeParent * createWithFile(const char * fileImage);
     virtual bool initWithFile(const char * fileImage);
+    //CCTouchDelegate Methods option!!!
     virtual bool ccTouchBegan(CCTouch * pTouch, CCEvent * pEvent);
     virtual void ccTouchMoved(CCTouch * pTouch, CCEvent * pEvent);
 };
